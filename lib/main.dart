@@ -1,3 +1,4 @@
+import 'package:digitaldairy/app/modules/login/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -56,8 +57,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
             ),
           ),
-          home:
-              UserMainScreen(), // Changed back to SplashView as the entry point
+          home: LoginView(), // Changed back to LoginView as the entry point
         );
       },
     );
